@@ -1,0 +1,171 @@
+
+ /* Bootstrap */
+  /* Estilo para el formulario de búsqueda */
+  .search-form {
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin: auto; /* Centrar el formulario */
+    background-color: rgba(99, 91, 91, 0.1); /* Fondo semi-transparente */
+    padding: 15px; /* Espaciado interior */
+    border-radius: 25px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra ligera */
+  }
+  /* Estilo para el campo de búsqueda */
+  .search-input {
+    border: none; /* Sin borde */
+    background: transparent; /* Fondo transparente */
+    color: #fff; /* Color de texto blanco */
+    width: 100%; /* Ancho completo */
+  }
+  /* Estilo para el botón de búsqueda */
+  .search-btn {
+    background-color: #007bff; /* Color de fondo del botón (azul) */
+    border-color: #007bff; /* Color de borde del botón (azul) */
+    color: #fff; /* Color de texto blanco */
+  }
+  .search-btn:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+    border-color: #fff; /* Color de borde del botón al pasar el mouse */
+  }
+
+ /* -------------------Fin boot------------------------ */
+ header{
+    background:linear-gradient(91deg,#000024 0%, #000048 80%);
+}
+
+.header__container-box{
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.header__content-home{
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 400px;
+    flex-shrink: 0;
+    padding: 80px;
+ 
+
+
+}
+.header__content-user{
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 400px;
+    flex-shrink: 0;
+    
+}
+.header__button-user{
+    display: block;
+    border: 1px solid #a49e9e;
+    max-width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 12px;
+    font-size: medium;
+    font-weight: bolder;
+  
+  
+}
+
+.content__title-logo{
+    color: #da4545;
+    font-size: 2rem;
+    
+}
+h1{
+    font-size: 4rem;
+}
+
+.content__img-logo{
+    width: 60px;
+    height: 60px;
+}
+
+/* Imagenes */
+.header__conten-user-img{
+ 
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 0;
+   
+
+}
+/*-------------- Formulario -------------- */
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+form button[type="button"] {
+    background-color: #f44336;
+    color: #fff;
+}
